@@ -1,17 +1,16 @@
 import React from 'react';
-import '../App.css'; 
+import '../App.css';
+import ImgOverlay from './ImageOverlay';
+import StoreListing from './StoreListing'; // Adjust the path as necessary
 
 function MyFullPageForm() {
   return (
     <div className="full-page-container">
       <div className="top-section full-page-section">
-        {/* Top section content goes here */}
         <h1 className="main-title">Order groceries for delivery or pickup today.</h1>
-        {/* Add more content or form elements as needed */}
       </div>
       <div className="bottom-section full-page-section">
-        {/* Bottom section content goes here */}
-        {/* Form fields, etc. */}
+        <StoreListing />
       </div>
     </div>
   );
